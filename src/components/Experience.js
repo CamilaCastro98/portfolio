@@ -58,26 +58,26 @@ const Experience = () => {
           <li className="mb-10 ms-4 shadow-lg backdrop-blur-md bg-[#23222240] rounded-lg">
             <div className="absolute w-3 h-3 bg-[#FCB3AD] rounded-full mt-1.5 -start-5.5"></div>
             <p className="mb-1 p-3 text-xs md:text-sm font-normal rounded-tl-lg rounded-tr-lg bg-[#131313] w-full leading-none text-gray-400 dark:text-gray-500">{translations[language].period1}</p>
-            <h3 className="p-3 text-base font-semibold text-gray-900 md:text-lg dark:text-white">{translations[language].education}</h3>
-            <p className="p-3 mb-4 text-sm font-normal text-gray-500 md:text-base dark:text-gray-400">{translations[language].educationDescription}</p>
+            <h3 className="p-3 text-base font-semibold text-white md:text-lg">{translations[language].education}</h3>
+            <p className="p-3 mb-4 text-sm font-normal text-gray-400 md:text-base dark:text-gray-400">{translations[language].educationDescription}</p>
           </li>                
           <li className="mb-10 ms-4 shadow-lg backdrop-blur-md bg-[#23222240] rounded-lg">
             <div className="absolute w-3 h-3 bg-[#FCB3AD] rounded-full mt-1.5 -start-5.5"></div>
             <p className="mb-1 p-3 text-xs md:text-sm font-normal rounded-tl-lg rounded-tr-lg bg-[#131313] w-full leading-none text-gray-400 dark:text-gray-500">{translations[language].period2}</p>
-            <h3 className="p-3 text-base font-semibold text-gray-900 md:text-lg dark:text-white">{translations[language].audiovisualWork}</h3>
-            <p className="p-3 mb-4 text-sm font-normal text-gray-500 md:text-base dark:text-gray-400">{translations[language].audiovisualWorkDescription}</p>
+            <h3 className="p-3 text-base font-semibold text-white md:text-lg">{translations[language].audiovisualWork}</h3>
+            <p className="p-3 mb-4 text-sm font-normal text-gray-400 md:text-base dark:text-gray-400">{translations[language].audiovisualWorkDescription}</p>
           </li>
           <li className="mb-10 ms-4 shadow-lg backdrop-blur-md bg-[#23222240] rounded-lg">
             <div className="absolute w-3 h-3 bg-[#FCB3AD] rounded-full mt-1.5 -start-5.5"></div>
             <p className="mb-1 p-3 text-xs md:text-sm font-normal rounded-tl-lg rounded-tr-lg bg-[#131313] w-full leading-none text-gray-400 dark:text-gray-500">{translations[language].period3}</p>
-            <h3 className="p-3 text-base font-semibold text-gray-900 md:text-lg dark:text-white">{translations[language].bootcamp}</h3>
-            <p className="p-3 mb-4 text-sm font-normal text-gray-500 md:text-base dark:text-gray-400">{translations[language].bootcampDescription}</p>
+            <h3 className="p-3 text-base font-semibold text-white md:text-lg">{translations[language].bootcamp}</h3>
+            <p className="p-3 mb-4 text-sm font-normal text-gray-400 md:text-base dark:text-gray-400">{translations[language].bootcampDescription}</p>
           </li>
           <li className="mb-10 ms-4 shadow-lg backdrop-blur-md bg-[#23222240] rounded-lg">
             <div className="absolute w-3 h-3 bg-[#FCB3AD] rounded-full mt-1.5 -start-5.5"></div>
             <p className="mb-1 p-3 text-xs md:text-sm font-normal rounded-tl-lg rounded-tr-lg bg-[#131313] w-full leading-none text-gray-400 dark:text-gray-500">{translations[language].period4}</p>
-            <h3 className="p-3 text-base font-semibold text-gray-900 md:text-lg dark:text-white">{translations[language].clientWork}</h3>
-            <p className="p-3 mb-4 text-sm font-normal text-gray-500 md:text-base dark:text-gray-400">{translations[language].clientWorkDescription}</p>
+            <h3 className="p-3 text-base font-semibold text-white md:text-lg">{translations[language].clientWork}</h3>
+            <p className="p-3 mb-4 text-sm font-normal text-gray-400 md:text-base dark:text-gray-400">{translations[language].clientWorkDescription}</p>
           </li>
         </ol>
       </div>

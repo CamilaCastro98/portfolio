@@ -56,28 +56,28 @@ const Navbar = () => {
         <div className={`w-full flex justify-center md:block md:w-auto ${dropdownOpen ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col p-4 mt-4 font-medium rounded-lg md:p-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
-              <a href="#skills" className="block w-full px-3 py-2 text-gray-900 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 dark:text-white" aria-current="page">
+              <a href="#skills" className="block w-full px-3 py-2 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 text-white" aria-current="page">
                 {translations[language].skills}
               </a>
             </li>
             <li>
-              <a href="#experience" className="block px-3 py-2 text-gray-900 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 dark:text-white">
+              <a href="#experience" className="block px-3 py-2 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 text-white">
                 {translations[language].experience}
               </a>
             </li>
             <li>
-              <a href="#projects" className="block px-3 py-2 text-gray-900 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 dark:text-white">
+              <a href="#projects" className="block px-3 py-2 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 text-white">
                 {translations[language].projects}
               </a>
             </li>
             <li>
-              <a href="#about" className="block px-3 py-2 text-gray-900 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 dark:text-white">
+              <a href="#about" className="block px-3 py-2 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 text-white">
                 {translations[language].about}
               </a>
             </li>
             <li className="relative">
               <button
-                className="flex items-center justify-between w-full px-3 py-2 text-gray-900 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 md:w-auto dark:text-white"
+                className="flex items-center justify-between w-full px-3 py-2 rounded md:hover:bg-transparent md:border-0 hover:text-[#f78e9f] md:p-0 md:w-auto text-white"
                 onClick={toggleNestedDropdown}
               >
                 {translations[language].talk}
