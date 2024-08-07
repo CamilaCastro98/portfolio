@@ -85,7 +85,7 @@ const Navbar = () => {
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                 </svg>
               </button>
-              <div className={`absolute left-0 mt-2 w-44 bg-[#131313] divide-y divide-gray-100 rounded-lg shadow dark:divide-gray-600 ${nestedDropdownOpen ? 'block' : 'hidden'}`}>
+              <div className={`absolute z-50 left-0 mt-2 w-44 bg-[#131313] divide-y divide-gray-100 rounded-lg shadow dark:divide-gray-600 ${nestedDropdownOpen ? 'block' : 'hidden'}`}>
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                   <li>
                     <a href="https://www.linkedin.com/in/camilacastrogimenez/" target="_blank" className="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white">LinkedIn</a>

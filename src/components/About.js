@@ -22,7 +22,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center gap-5 mb-10">
       <h2 className="mt-16 text-lg md:text-2xl lg:text-4xl">{translations[language].aboutMe}</h2>
-      <div className="backdrop-blur-md p-10 bg-gradient-to-br from-[#00000080] via-[#00000010] to-[#00000010] z-10 shadow-lg rounded-lg">
+      <div className="backdrop-blur-md p-5 md:p-10 bg-gradient-to-br from-[#00000080] via-[#00000010] to-[#00000010] z-10 shadow-lg rounded-lg">
         {translations[language].introduction}
         <p className="mt-3 text-center text-[#FFC0CB]">{translations[language].contactMe}</p>
       </div>
