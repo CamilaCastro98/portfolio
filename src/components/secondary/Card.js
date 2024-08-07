@@ -16,7 +16,7 @@ const Card = ({ title, img, description, technology, more,language,links }) => {
         <div className="relative max-w-xl rounded-lg p-5 bg-[#23222240] shadow-lg backdrop-blur-md transition-transform duration-300 transform hover:scale-105">
             <img className="rounded-t-lg" src={img} alt="" />
             <div>
-                <h5 className="my-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="my-2 text-lg font-bold tracking-tight text-white">
                     {title}
                 </h5>
                 <p className="mb-2 font-normal text-white">
@@ -57,14 +57,14 @@ const Card = ({ title, img, description, technology, more,language,links }) => {
                     </h2>
                     <div
                         id="accordion-collapse-body-1"
-                        className={`absolute inset-0 p-10 rounded-lg bg-[#020202] transition-opacity duration-300 ${isAccordionOpen ? 'opacity-90' : 'opacity-0 pointer-events-none'}`}
+                        className={`absolute inset-0 p-10 overflow-y-scroll rounded-lg bg-[#020202] transition-opacity duration-300 ${isAccordionOpen ? 'opacity-90' : 'opacity-0 pointer-events-none'}`}
                         aria-labelledby="accordion-collapse-heading-1"
                     >
                         <div>
                             <button onClick={toggleAccordion} className='flex items-center gap-1 font-medium text-gray-500 hover:text-white'>
                                 <IoChevronBackOutline className='w-5 h-auto' />{language === 'en' ? 'Go Back' : 'Volver'}
                             </button>
-                            <p className="p-10 my-2 text-white">
+                            <p className="p-2 my-2 text-sm text-white md:text-base md:p-10">
                                 {more}
                             </p>
                         </div>
